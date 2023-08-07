@@ -18,7 +18,6 @@
   border-color: rgb(11, 72, 52);
 }
 
-
 .horizontal_line {
   margin-top: 40px;
 }
@@ -54,9 +53,6 @@
   justify-content: space-between;
   gap: 180px;
 }
-
-
-
 
 .box1 input {
   width: 15px;
@@ -110,8 +106,6 @@ input[name="radio3"] {
   cursor: pointer;
 }
 
-
-
 .box3_content {
   margin-left: 20px;
   display: flex;
@@ -119,15 +113,11 @@ input[name="radio3"] {
   gap: 180px;
 }
 
-
-
-
 .last_content {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
-
 
 @media screen and (max-width: 600px) {
   .main_container {
@@ -138,22 +128,19 @@ input[name="radio3"] {
     margin-right: 10%;
   }
 
-  .most{
-position: relative;
-left: 40px;
-
-}
+  .most {
+    position: relative;
+    left: 40px;
+  }
 
   .horizontal_line {
     margin-top: 40px;
     width: 90%;
   }
 
-
   .horizontal_line h2 {
     font-size: 18px;
   }
-
 
   .box1 {
     width: 420px;
@@ -172,16 +159,14 @@ left: 40px;
     margin-right:0px;
   }
 
-
-
-.md_screen{position: relative;
-left: 100px;
-bottom:20px;
-}
-.md_screen1{position: relative;
-  left: 80px;
-  bottom:20px;
- }
+  .md_screen{position: relative;
+    left: 100px;
+    bottom:20px;
+  }
+  .md_screen1{position: relative;
+    left: 80px;
+    bottom:20px;
+  }
 
   .box2 {
     width: 420px;
@@ -193,11 +178,9 @@ bottom:20px;
   }
 
   .box2_content {
-
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
-
   }
 
   .box3 {
@@ -238,7 +221,6 @@ bottom:20px;
   }
 }
 
-
 @media screen and (max-width: 400px) {
   .main_container {
     width: 90%;
@@ -248,12 +230,9 @@ bottom:20px;
     margin-right: 10%;
   }
 
-  
-
   .horizontal_line h2 {
     font-size: 18px;
   }
-
 
   .box1 {
     width: 360px;

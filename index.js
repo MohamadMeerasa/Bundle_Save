@@ -80,35 +80,24 @@ function changeSelection() {
   // Get all the radio buttons
   const radioButtons = document.getElementsByName("radio1");
 
-  // Loop through all the radio buttons
   for (let i = 0; i < radioButtons.length; i++) {
-    // Get the corresponding box for each radio button
     const box = document.getElementById(`box${i + 1}`);
-    // Get the corresponding select box for each box
     const selectBoxes = document.querySelectorAll(`.select_box${i + 1}`);
-    // const colorBox = document.getElementById(`.colour_text${i + 1}`);
-
     // Get the radio button that was clicked
     const clickedRadioButton = radioButtons[i];
 
     if (clickedRadioButton.checked) {
-      // Show the corresponding select box
       selectBoxes.forEach((selectBox) => {
         selectBox.style.display = "block";
       });
-      // colorBox.style.display = "block";
       box.style.height = "auto";
       box.style.background="#E5FFEB";
-      
-
     } else {
-      // Hide the corresponding select box only if it's not the clicked one
       if (!clickedRadioButton.checked) {
         selectBoxes.forEach((selectBox) => {
           selectBox.style.display = "none";
         });
         box.style.background = "none";
-        // colorBox.style.display = "none"
       }
     }
   }
