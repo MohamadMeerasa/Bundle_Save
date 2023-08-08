@@ -18,6 +18,16 @@
   border-color: rgb(11, 72, 52);
 }
 
+.addtocart{
+  width: 522px;
+  padding: 10px;
+  height: 40px;
+  margin-top:10px;
+  background-color:rgb(5, 124, 84);
+  color:#fff;
+  border:none;
+}
+
 .horizontal_line {
   margin-top: 40px;
 }
@@ -54,6 +64,9 @@
   gap: 180px;
 }
 
+
+
+
 .box1 input {
   width: 15px;
   height: 15px;
@@ -71,6 +84,8 @@ input[name="radio2"] {
 input[name="radio3"] {
   accent-color: green;
 }
+
+
 
 .box2 {
   width: 522px;
@@ -92,7 +107,7 @@ input[name="radio3"] {
 
 .box3 {
   width: 522px;
-  height: 80px;
+  height: auto;
   border: 1px solid rgb(185, 180, 180);
   margin-top: 20px;
   padding: 18px;
@@ -104,16 +119,18 @@ input[name="radio3"] {
   width: 15px;
   height: 15px;
   cursor: pointer;
-}
+ }
+
 
 .box3_content {
   margin-left: 20px;
   display: flex;
   justify-content: space-between;
   gap: 180px;
+  overflow: scroll;
 }
 
-.last_content {
+.shiping-div {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -126,16 +143,12 @@ input[name="radio3"] {
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
+    display: block;
   }
-
-  .most {
-    position: relative;
-    left: 40px;
-  }
-
+ 
   .horizontal_line {
     margin-top: 40px;
-    width: 90%;
+    width: 96%;
   }
 
   .horizontal_line h2 {
@@ -162,7 +175,7 @@ input[name="radio3"] {
   .md_screen{position: relative;
     left: 100px;
     bottom:20px;
-  }
+    }
   .md_screen1{position: relative;
     left: 80px;
     bottom:20px;
@@ -172,7 +185,7 @@ input[name="radio3"] {
     width: 420px;
     height: 80px;
     border: 1px solid rgb(185, 180, 180);
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 18px;
     display: flex;
   }
@@ -217,9 +230,18 @@ input[name="radio3"] {
   }
 
   .copyright {
-    margin-right: 70px;
+    margin-right: 10px;
+  }
+
+  .rdo-btn-dv2{
+   margin-right: 15px;
+  }
+
+  .addtocart {
+      width:97%;
   }
 }
+
 
 @media screen and (max-width: 400px) {
   .main_container {
@@ -267,10 +289,29 @@ input[name="radio3"] {
     justify-content: space-between;
 
   }
+  .cross-text {
+    color: #9F9F9F;
+    font-size: 13px;
+    align-self: end;
+    position: relative;
+    left: 24px;
+}
+
+.cross-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 41%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 105%;
+    height: 0.5px;
+    background-color: #9F9F9F;
+}
 
   .box3 {
     width: 360px;
-    height: 80px;
+    height: 220px !important;
     border: 1px solid rgb(185, 180, 180);
     margin-top: 20px;
     padding: 18px;
