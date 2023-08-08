@@ -53,7 +53,7 @@
   margin-top: 20px;
   padding: 18px;
   display: flex;
-  align-items: center;
+  
 }
 
 .box1_content {
@@ -63,9 +63,6 @@
   justify-content: space-between;
   gap: 180px;
 }
-
-
-
 
 .box1 input {
   width: 15px;
@@ -85,8 +82,6 @@ input[name="radio3"] {
   accent-color: green;
 }
 
-
-
 .box2 {
   width: 522px;
   height: 80px;
@@ -94,25 +89,21 @@ input[name="radio3"] {
   margin-top: 20px;
   padding: 18px;
   display: flex;
-  align-items: center;
 }
 
 .box2_content {
-
   margin-left: 20px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .box3 {
   width: 522px;
-  height: auto;
+  height: 80px;
   border: 1px solid rgb(185, 180, 180);
   margin-top: 20px;
   padding: 18px;
   display: flex;
-  align-items: center;
 }
 
 .box3 input {
@@ -121,13 +112,10 @@ input[name="radio3"] {
   cursor: pointer;
  }
 
-
 .box3_content {
   margin-left: 20px;
   display: flex;
   justify-content: space-between;
-  gap: 180px;
-  overflow: scroll;
 }
 
 .shiping-div {
@@ -162,7 +150,6 @@ input[name="radio3"] {
     margin-top: 40px;
     padding: 18px;
     display: flex;
-    align-items: center;
   }
 
   .box1_content {
@@ -203,7 +190,6 @@ input[name="radio3"] {
     margin-top: 20px;
     padding: 18px;
     display: flex;
-    align-items: center;
   }
 
   .box3_content {
@@ -311,12 +297,13 @@ input[name="radio3"] {
 
   .box3 {
     width: 360px;
-    height: 220px !important;
+    height: 220px ;
     border: 1px solid rgb(185, 180, 180);
     margin-top: 20px;
     padding: 18px;
     display: flex;
-    align-items: center;
+    align-items:center;
+    text-align: top;
   }
 
   .box3_content {
@@ -335,7 +322,6 @@ input[name="radio3"] {
 
   .select_box {
     display: flex;
-
   }
 
   .most {
